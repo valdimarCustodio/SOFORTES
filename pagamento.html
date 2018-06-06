@@ -8,10 +8,14 @@
 </head>
 <body>
     <h1>Efetuar pagamento</h1>
-    <ul style="list-style-type:none">
-        <li>Boleto</li>
-        <li>Cartão</li>
-        <li>Depósito Identificado</li>
-    </ul>
+
+    <p>Selecione o tipo de pagamento:</p>
+
+    <form action="/action_page.php">
+      <input type="radio" name="gender" value="1" checked> Boleto<br>
+      <input type="radio" name="gender" value="2"> Cartão<br>
+      <input type="radio" name="gender" value="3"> Depósito Identificado<br><br>
+      <input type="submit">
+    </form>
 </body>
 </html>
